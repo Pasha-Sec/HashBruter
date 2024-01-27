@@ -11,7 +11,7 @@ def gecen(baslangic, bitis):
     sonuc = bitis - baslangic
     d= str(sonuc).split(":")
     dd= d[0]+":"+d[1]+":"+d[2][0:2]
-    print (r"Program islemi   {}' surede bitirmistir.".format(dd))
+    print (r"Program islemi  {}' surede bitirmistir.".format(dd))
     
 
 print ("""
@@ -139,7 +139,7 @@ def kmd5salt2(hashmd5,salt,liste):
         else:
             print ("Bu hash md5 degildir.")
     except IOError:
-        print ("Boyle bir dosya yoktur.Lutfen dosya adini ve uzantisini kontrol ediniz.")
+        print ("Boyle bir dosya yok! Lutfen dosya adini ve uzantisini kontrol et.")
         sys.exit()
 def ksha224(hashsha224,liste):
     global aks
@@ -175,7 +175,7 @@ def ksha224(hashsha224,liste):
         else:
             print ("Bu hash sha224 degildir.")
     except IOError:
-        print ("Boyle bir dosya yoktur.Lutfen dosya adini ve uzantisini kontrol ediniz.")
+        print ("Boyle bir dosya yok! Lutfen dosya adini ve uzantisini kontrol et.")
         sys.exit()
 def ksha1(hashsha1,liste):
     global aks
@@ -211,7 +211,7 @@ def ksha1(hashsha1,liste):
         else:
             print ("Bu hash sha1 degildir.")
     except IOError:
-        print ("Boyle bir dosya yoktur.Lutfen dosya adini ve uzantisini kontrol ediniz.")
+        print ("Boyle bir dosya yok! Lutfen dosya adini ve uzantisini kontrol et.")
         sys.exit()
 def ksha256(hashsha256,liste):
     global aks
@@ -247,7 +247,7 @@ def ksha256(hashsha256,liste):
         else:
             print ("Bu hash sha256 degildir.")
     except IOError:
-        print ("Boyle bir dosya yoktur.Lutfen dosya adini ve uzantisini kontrol ediniz.")
+        print ("Boyle bir dosya yok! Lutfen dosya adini ve uzantisini kontrol et.")
         sys.exit()
 def ksha384(hashsha384,liste):
     global aks
@@ -283,7 +283,7 @@ def ksha384(hashsha384,liste):
         else:
             print ("Bu hash sha348 degildir.")
     except IOError:
-        print ("Boyle bir dosya yoktur.Lutfen dosya adini ve uzantisini kontrol ediniz.")
+        print ("Boyle bir dosya yok! Lutfen dosya adini ve uzantisini kontrol et.")
         sys.exit()
 def ksha512(hashsha512,liste):
     global aks
@@ -319,7 +319,7 @@ def ksha512(hashsha512,liste):
         else:
             print ("Bu hash sha512 degildir.")
     except IOError:
-        print ("Boyle bir dosya yoktur.Lutfen dosya adini ve uzantisini kontrol ediniz.")
+        print ("Boyle bir dosya yok! Lutfen dosya adini ve uzantisini kontrol et.")
         sys.exit()
 def kbase64(hbase64):
     try:
@@ -345,43 +345,43 @@ print ("""
  9 = base64 Decrypter
 """)
 
-sec=input("Lütfen Seçtiğiniz numarayı giriniz = ")
+sec=input("Hash tipi seç = ")
 if sec =="1":
-    hashmd5=input("lutfen kirilacak md5'i giriniz = \n")
-    liste=input("lutfen wordlist dosyasini giriniz. ayni klasorde ise wordlist.txt gibi dosya adini yaz degilse; \nuzantisi ile birlikte yaziniz. wordlist.txt gibi giriniz = ")
+    hashmd5=input("md5'i paste et = \n")
+    liste=input("Wordlist dosyasinin pathini gir = ")
     kmd5(hashmd5,liste)
 elif sec == "2":
-    hashmd5=input("lutfen kirilacak md5'i giriniz = \n")
+    hashmd5=input("md5'i paste et = \n")
     salt=input("lutfen salt' i giriniz = \n")
-    liste=input("lutfen wordlist dosyasini giriniz. ayni klasorde ise wordlist.txt gibi dosya adini yaz degilse; \nuzantisi ile birlikte yaziniz. wordlist.txt gibi giriniz = ")
+    liste=input("Wordlist dosyasinin pathini gir = ")
     kmd5salt(hashmd5,salt,liste)
 
 elif sec == "3":
-    hashmd5=input("lutfen kirilacak md5'i giriniz = \n")
+    hashmd5=input("md5'i paste et = \n")
     salt=input("lutfen salt' i giriniz = \n")
-    liste=input("lutfen wordlist dosyasini giriniz. ayni klasorde ise wordlist.txt gibi dosya adini yaz degilse; \nuzantisi ile birlikte yaziniz. wordlist.txt gibi giriniz = ")
+    liste=input("Wordlist dosyasinin pathini gir = ")
     kmd5salt2(hashmd5,salt,liste)
 elif sec == "4":
-    hashmd51=input("lutfen kirilacak sha1'i giriniz = \n")
-    liste=input("lutfen wordlist dosyasini giriniz. ayni klasorde ise wordlist.txt gibi dosya adini yaz degilse; \nuzantisi ile birlikte yaziniz. wordlist.txt gibi giriniz = ")
+    hashmd51=input("Hashi paste et = \n")
+    liste=input("Wordlist dosyasinin pathini gir = ")
     ksha1(hashmd51,liste)
 elif sec == "5":
-    hashmd5=input("lutfen kirilacak sha224'i giriniz = \n")
-    liste=input("lutfen wordlist dosyasini giriniz. ayni klasorde ise wordlist.txt gibi dosya adini yaz degilse; \nuzantisi ile birlikte yaziniz. wordlist.txt gibi giriniz = ")
+    hashmd5=input("Hashi paste et = \n")
+    liste=input("Wordlist dosyasinin pathini gir = ")
     ksha224(hashmd5,liste)
 elif sec == "6":
-    hashmd5=input("lutfen kirilacak sha256'i giriniz = \n")
-    liste=input("lutfen wordlist dosyasini giriniz. ayni klasorde ise wordlist.txt gibi dosya adini yaz degilse; \nuzantisi ile birlikte yaziniz. wordlist.txt gibi giriniz = ")
+    hashmd5=input("Hashi paste et = \n")
+    liste=input("Wordlist dosyasinin pathini gir = ")
     ksha256(hashmd5,liste)
 elif sec == "7":
-    hashmd5=input("lutfen kirilacak sha384'i giriniz = \n")
-    liste=input("lutfen wordlist dosyasini giriniz. ayni klasorde ise wordlist.txt gibi dosya adini yaz degilse; \nuzantisi ile birlikte yaziniz. wordlist.txt gibi giriniz = ")
+    hashmd5=input("Hashi paste et = \n")
+    liste=input("Wordlist dosyasinin pathini gir = ")
     ksha384(hashmd5,liste)
 elif sec == "8":
-    hashmd5=input("lutfen kirilacak sha512'i giriniz = \n")
-    liste=input("lutfen wordlist dosyasini giriniz. ayni klasorde ise wordlist.txt gibi dosya adini yaz degilse; \nuzantisi ile birlikte yaziniz. wordlist.txt gibi giriniz = ")
+    hashmd5=input("Hashi paste et = \n")
+    liste=input("Wordlist dosyasinin pathini gir = ")
     ksha512(hashmd5,liste)
 
 elif sec == "9":
-    hashmd5=input("lutfen kirilacak base64'ü giriniz = \n")
+    hashmd5=input("Hashi paste et = \n")
     kbase64(hashmd5)
