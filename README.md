@@ -1,12 +1,18 @@
 # HashBruter
+Yazılım python dili tabanlı çoklu hash kırıcıdır (multi hash cracker).
+
+
 Sorumluluk tamemen kullanıcıya aittir. Proje yalnızca eğitim amaçlıdır.
 
 ![screenshot (2)](https://github.com/Pasha-Sec/HashBruter/assets/148802667/1a9faf56-143f-4f11-b648-176bf49d324f)
 
 
+
 Download & Start:
    $ git clone https://github.com/Pasha-Sec/HashBruter.git && cd HashBruter
    $ python (or python3) HashBruter.py
+
+
    
 Using:
 
