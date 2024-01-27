@@ -12,7 +12,7 @@ Sorumluluk tamemen kullanıcıya aittir. Proje yalnızca eğitim amaçlıdır.
 
 Download & Start:
 
-   $ git clone https://github.com/Pasha-Sec/HashBruter.git && cd HashBruter && python (or python3) HashBruter.py
+   $ git clone https://github.com/Pasha-Sec/HashBruter.git && cd HashBruter && pip3 install -r requirements.txt && python3 HashBruter.py
 
 
 
