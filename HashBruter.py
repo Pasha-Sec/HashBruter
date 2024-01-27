@@ -15,12 +15,16 @@ def gecen(baslangic, bitis):
     
 
 print ("""
-  ___ ___               .__   __________               __                
- /   |   \_____    _____|  |__\______   \______ __ ___/  |_  ___________ 
-/    ~    \__  \  /  ___/  |  \|    |  _|_  __ \  |  \   __\/ __ \_  __ \
-\    Y    // __ \_\___ \|   Y  \    |   \|  | \/  |  /|  | \  ___/|  | \/
- \___|_  /(____  /____  >___|  /______  /|__|  |____/ |__|  \___  >__|   
-       \/      \/     \/     \/       \/                        \/       """)
+ _   _           _    ______            _            
+| | | |         | |   | ___ \          | |           
+| |_| | __ _ ___| |__ | |_/ /_ __ _   _| |_ ___ _ __ 
+|  _  |/ _` / __| '_ \| ___ \ '__| | | | __/ _ \ '__|
+| | | | (_| \__ \ | | | |_/ / |  | |_| | ||  __/ |   
+\_| |_/\__,_|___/_| |_\____/|_|   \__,_|\__\___|_|   
+                                                     
+                                                        
+       """)
+print ("------Created By PashaSec-----")
 aks=0
 def yazi():
     global aks
@@ -120,7 +124,7 @@ def kmd5salt2(hashmd5,salt,liste):
                 dene=hashlib.md5(sifre1.encode('utf-8')).hexdigest()
                 if dene.lower()==hashmd5.lower() :
                 
-                    print ("---KIRILDI---")
+                    print ("---BASARİLİ---")
                     print ("KIRILAN SİFRE ={}   ".format(sifre))
                     print (r"{} = {} :{}".format(sifre,dene,salt))
                     bitis=datetime.datetime.now()
@@ -156,7 +160,7 @@ def ksha224(hashsha224,liste):
                 dene=hashlib.sha224(sifre1).hexdigest()
                 if dene==hashsha224 :
                 
-                    print ("---KIRILDI---")
+                    print ("---BASARİLİ---")
                     print ("KIRILAN SİFRE = {}   ".format(sifre))
                     print (r"{} = {}".format(sifre,dene))
                     bitis=datetime.datetime.now()
@@ -192,7 +196,7 @@ def ksha1(hashsha1,liste):
                 dene=hashlib.sha1(sifre1).hexdigest()
                 if dene==hashsha1 :
                 
-                    print ("---KIRILDI---")
+                    print ("---BASARİLİ---")
                     print ("KIRILAN SİFRE = {}   ".format(sifre))
                     print ("\n{} = {}".format(sifre,dene))
                     bitis=datetime.datetime.now()
@@ -228,7 +232,7 @@ def ksha256(hashsha256,liste):
                 dene=hashlib.sha256(sifre1).hexdigest()
                 if dene==hashsha256 :
                 
-                    print ("---KIRILDI---")
+                    print ("---BASARİLİ---")
                     print ("KIRILAN SİFRE = {}   ".format(sifre))
                     print ("{} = {}".format(sifre,dene))
                     bitis=datetime.datetime.now()
@@ -264,7 +268,7 @@ def ksha384(hashsha384,liste):
                 dene=hashlib.sha384(sifre1).hexdigest()
                 if dene==hashsha384 :
                 
-                    print ("---KIRILDI---")
+                    print ("---BASARİLİ---")
                     print ("KIRILAN SİFRE = {}   ".format(sifre))
                     print ("{} = {}".format(sifre,dene))
                     bitis=datetime.datetime.now()
@@ -300,7 +304,7 @@ def ksha512(hashsha512,liste):
                 dene=hashlib.sha512(sifre1).hexdigest()
                 if dene==hashsha512 :
                 
-                    print ("---KIRILDI---")
+                    print ("---BASARİLİ---")
                     print ("KIRILAN SİFRE = {}   ".format(sifre))
                     print ("{} = {}".format(sifre,dene))
                     bitis=datetime.datetime.now()
