@@ -9,9 +9,12 @@ Sorumluluk tamemen kullanıcıya aittir. Proje yalnızca eğitim amaçlıdır.
 
 
 
+
 Download & Start:
+
    $ git clone https://github.com/Pasha-Sec/HashBruter.git && cd HashBruter
    $ python (or python3) HashBruter.py
+
 
 
    
