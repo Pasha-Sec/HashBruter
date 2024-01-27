@@ -1,12 +1,14 @@
 # HashBruter
 Sorumluluk tamemen kullanıcıya aittir. Proje yalnızca eğitim amaçlıdır.
 
-![header](https://github.com/Pasha-Sec/HashBruter/assets/148802667/1b78b16d-4d23-4aa1-9de7-aaa316643c82)
+![screenshot (2)](https://github.com/Pasha-Sec/HashBruter/assets/148802667/1a9faf56-143f-4f11-b648-176bf49d324f)
 
 
-Downloading & Using:
+Download & Start:
    $ git clone https://github.com/Pasha-Sec/HashBruter.git && cd HashBruter
-
    $ python (or python3) HashBruter.py
    
-![screenshot](https://github.com/Pasha-Sec/HashBruter/assets/148802667/381741eb-9193-46e6-ad0d-45bf5ad1815c)
+Using:
+![screenshot (3)](https://github.com/Pasha-Sec/HashBruter/assets/148802667/bfa9cc75-217a-458c-b303-032a775e2e83)
+
+
