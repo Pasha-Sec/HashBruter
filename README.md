@@ -1,5 +1,5 @@
 # HashBruter
-Bu yazılım, Python dili tabanlı çoklu hash kırıcıdır (multi hash cracker). Yazılımın sonucu verme süresi listenize ve şifreye göre değişir. Ayrıca termux üzerinde de çalıştırabilirsiniz:
+Bu yazılım, Python dili tabanlı çoklu hash kırıcıdır (multi hash cracker). Belirtilen hashi brute force yöntemiyle kırar. Yazılımın sonuç verme süresi listenize ve şifreye göre değişir. Ayrıca termux üzerinde de çalıştırabilirsiniz:
 
 
 
