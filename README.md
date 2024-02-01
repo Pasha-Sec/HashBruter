@@ -5,7 +5,8 @@ Bu yazılım, Python dili tabanlı çoklu hash kırıcıdır (multi hash cracker
 
 Sorumluluk tamemen kullanıcıya aittir. Proje yalnızca eğitim amaçlıdır.
 
-![screenshot (2)](https://github.com/Pasha-Sec/HashBruter/assets/148802667/1a9faf56-143f-4f11-b648-176bf49d324f)
+![ss](https://github.com/Pasha-Sec/HashBruter/assets/148802667/c70b7555-94ca-4b8b-a4d8-e036cf8a9168)
+
 
 
 
@@ -17,8 +18,9 @@ Download & Start:
 
 
    
-Using:
+Using:![ss2](https://github.com/Pasha-Sec/HashBruter/assets/148802667/e61aa8e2-f177-41ef-9e26-aa282c3a3ee0)
 
-![screenshot (3)](https://github.com/Pasha-Sec/HashBruter/assets/148802667/bfa9cc75-217a-458c-b303-032a775e2e83)
+
+
 
 
