@@ -24,7 +24,7 @@ print ("""
                                                      
                                                         
        """)
-print ("------Created By PashaSec-----")
+print ("------[By PashaSec]------[Version=1]------")
 aks=0
 def yazi():
     global aks
